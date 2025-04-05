@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Github Home Page</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home">Home Page</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research & Internship</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+    <div class="theme-toggle" id="themeToggle">
+      <div class="stars"></div>
+      <div class="sun-rays"></div>
+  </div>
+  </nav>
+
+  <div id="home" class="header-container">
+    <img src="assets/images/avatar.jpeg" alt="用户头像" class="avatar">
+    <h1>Hi, I am georgong</h1>
+    <p>Welcome to my Github Home Page!</p>
+  </div>
+
+  <section class="profile-section">
+    <div class="profile-header">
+      <img src="assets/images/me.jpg" alt="个人头像" class="profile-avatar">
+      <div class="profile-info">
+        <h2></h2>
+        <p></p>
+      </div>
+    </div>
+    <div class="profile-bio">
+      <p><strong>I’m a third-year undergraduate student at the University of California, San Diego, majoring in Data Science.</strong></p>
+      <p>
+        I’m passionate about exploring and analyzing data, building machine learning and deep learning models, and developing full-stack applications powered by large language models or deep learning systems.
+      </p>
+      <p><em>Thank you for visiting my website — feel free to explore my projects!</em></p>
+    </div>
+    <div class="profile-stats">
+      <div class="stat-item">
+        <span>📌</span>
+        <span></span>
+      </div>
+      <div class="stat-item">
+        <span>🏢</span>
+        <span></span>
+      </div>
+      <div class="stat-item">
+        <span>📧</span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <h2 id="projects">My Projects</h2>
+  <div id="filter-tags">
+  </div>
+  <div class="projects-container" id="projects-container">
+  </div>
+  <section id="research" class="profile-section">
+    <h2>Research & Internship</h2>
+    <div class="experience-item">
+      <h3>Image Inpainting Research: Auxiliary Loss Adaptation</h3>
+      <div class="tags">
+        <span class="tag">Deep Learning</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Image Inpainting</span>
+      </div>
+      <ul>
+        <li>Contributed to the development of neural network architecture.</li>
+        <li>Researched the principles and innovations of auxiliary loss adaptation for image inpainting.</li>
+        <li>Participated in hyperparameter tuning, training, and comparative model experiments.</li>
+        <li>Created illustrations for model architecture and algorithm principles in the final paper.</li>
+      </ul>
+    </div>
+  
+    <div class="experience-item">
+      <h3>Kami Vision: LLM Application Internship</h3>
+      <div class="tags">
+        <span class="tag">Large Language Model</span>
+        <span class="tag">Prompt Engineering</span>
+        <span class="tag">Backend Server</span>
+        <span class="tag">Retrieval-Augmented Generation</span>
+      </div>
+      <ul>
+        <li>Developed large-scale model applications for deep learning video understanding and RAG systems.</li>
+        <li>Led the design and construction of a RAG pipeline, improving speed and inference performance with hybrid retrieval techniques.</li>
+        <li>Built a backend server with efficient parallel APIs to enhance scalability and performance.</li>
+        <li>Integrated a voice Q&A feature powered by local deep learning models.</li>
+      </ul>
+    </div>
+  </section>
+  <section id="resume" class="profile-section">
+    <h2>Resume</h2>
+    <p><iframe src="assets/images/CV.pdf" width="80%" height="1100px" style="display: block; margin: 0 auto;"></iframe></p>
+    <a href="assets/images/CV.pdf" class="project-link" target="_blank">Downlaod Resume</a>
+  </section>
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', () => toggleTheme())
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+      themeToggle.classList.toggle('active');
+
+    }
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

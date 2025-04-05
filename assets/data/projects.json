@@ -1,0 +1,68 @@
+[
+    {
+      "name": "QaMail-LLM",
+      "description": "An AI-powered email assistant that retrieves emails and generates intelligent responses",
+      "labels": ["LLM", "Application"],
+      "href": "https://github.com/georgong/QaMail-LLM",
+      "tags": ["Langchain","Flask","Ollama"],
+      "gif": "assets/images/QaMail-LLM.gif"
+    },
+    {
+      "name": "JotLine",
+      "description": "an AI notebook helps you make sense of everything you jot down",
+      "labels": ["LLM","Application"],
+      "href": "https://github.com/georgong/Jotline",
+      "tags": ["Ollama","Flask"],
+      "gif": "assets/images/jotline.png"
+    },
+    {
+      "name": "Web Agent",
+      "description": "A local web agent that sees with OpenCV, clicks with Selenium, and thinks with an offline LLM.",
+      "labels": ["LLM"],
+      "href": "https://github.com/georgong/web_agent",
+      "tags": ["Opencv", "LLM", "Selenium"],
+      "gif": "assets/images/web-agent.gif"
+    },
+    {
+      "name": "Country Population Bar Chart Race",
+      "description": "A Country Population Race Bar Visualization Pages built from d3.js",
+      "labels": ["Visualization","d3.js"],
+      "href": "https://github.com/georgong/country_population",
+      "tags": ["D3.js"],
+      "gif": "assets/images/country-population.gif"
+    },
+    {
+      "name": "Interactive Mean Shift notebooks",
+      "description": "An Interactive notebooks about Mean Shift Algorithm",
+      "labels": ["Visualization","d3.js","Machine Learning"],
+      "href": "https://github.com/georgong/mean_shift_visualization",
+      "tags": ["D3.js"],
+      "gif": "assets/images/mean-shift.gif"
+    },
+    {
+      "name": "League of Legends Predictive Analytics",
+      "description": "Predicting win rates based on champion selection and early-game data in MOBA matches.",
+      "labels": ["Visualization","Machine Learning"],
+      "href": "https://github.com/bytina923/League-of-Legends-Result-Analysis-2024",
+      "tags": ["Scikit-learn", "Plotly"],
+      "gif": "assets/images/lol.png"
+    },
+    {
+      "name": "alphaTank",
+      "description": "a multi-agent reinforcement learning (MARL) environment for competitive and cooperative AI training",
+      "labels": ["Deep Learning","Reinforce Learning"],
+      "href": "https://github.com/georgong/alphaTank",
+      "tags": ["Pytorch", "Gym", "Pygame"],
+      "gif": "assets/images/alphaTank.gif"
+    },
+    {
+      "name": "Machine Learning Tuning Visualization",
+      "description": "A visualization tool for hyperparameter tuning, supporting multi-parameter comparison.",
+      "labels": ["Machine Learning","Visualization","Application"],
+      "href": "https://github.com/georgong/Vis_tuning",
+      "tags": ["Plotly","flask"],
+      "gif": "assets/images/tuning.gif"
+      
+    }
+
+  ]
